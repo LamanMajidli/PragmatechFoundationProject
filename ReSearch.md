@@ -1,0 +1,1 @@
+Cosmos Store üçün web sayt yaratmağa çalışıram. İnternetdə biraz araşdırdıqdan sonra ikonlar yaratmaq və ya onları yükləmək qərarına gəldim. Yaratmağı bacarmasam da, yükləyə bildim. Ancaq yüklədiyimim ikonların linklərini qoşa bilmədim. Bunun üzərində çalışmalıyam.
