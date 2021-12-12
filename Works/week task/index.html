@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+
+        .item {
+            border: 1px solid red;
+            height: 150px;
+            background: black
+        }
+
+        .bg-green {
+            background: green;
+        }
+
+        .bg-blue {
+            background: blue;
+        }
+
+        .bg-yellow {
+            background: yellow;
+        }
+
+        .bg-black {
+            background: black;
+        }
+
+        .bg-red {
+            background: red
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item bg-black" name='one'></div>
+        <div class="item bg-green"></div>
+        <div class="item bg-yellow"></div>
+        <div class="item bg-yellow"></div>
+        <div class="item bg-gray"></div>
+        <div class="item bg-red"></div>
+        <div class="item bg-blue"></div>
+    </div>
+</body>
+
+</html>
