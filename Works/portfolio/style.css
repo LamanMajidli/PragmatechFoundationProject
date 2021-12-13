@@ -1,19 +1,27 @@
 body {
-    /* font-family: ; */
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    margin: 0px;
+    font-size: 15px;
+    word-wrap: break-word;
+    color: #767676 ;
 }
 
+/* Portfolio Styles */
 
-a{
+.info-ul a{
     text-decoration: none;
     color: #767676;
     letter-spacing: 2px;
     text-align: left;
-    font-size: 17px;
+    font-size: 13px;
     font-weight: 600;
     padding: 20px;
+    
 }
 ul li {
 list-style: none;
+font: 15px;
 }
 
 ul>:first-child{
@@ -35,16 +43,16 @@ ul>:first-child{
     align-items: center;
 }
 .about {
-    display: block;
+    display: flex;
     align-items: center;
+    flex-direction: column;
 }
 .portfolio{
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 210px;
+    padding: 0px 70px;
     justify-content: center;
-    align-items: center;
-    border: 1px solid gray;
 }
 .container{
     display: flex;
@@ -52,17 +60,36 @@ ul>:first-child{
     width: 100%;
 }
 
-.heading img {
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    
 
-}
 .info-ul {
     padding: 40px 0px 50px 0px;
     width: 100%;
     float: left;
+    margin: 0px;
+
 }
+
+/* h3{
+    padding-left: 60%;
+    display: flex;
+    color: #000;
+
+} */
+
+.social {
+    color :#000;
+    display: flex;
+}
+
+.social>div {
+
+    padding: 0px 12px 0px 0px;
+}
+footer .end a {
+    color: #787878 ;
+    text-decoration: none;
+    font-style: italic;
+}
+/* p {
+    padding-left: 60%;
+} */
