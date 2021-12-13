@@ -15,6 +15,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+/* Invite style start */
 .info-box {
     background-color: wheat;
     width: 750px;
@@ -57,3 +58,4 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
+/* Invite style end */
