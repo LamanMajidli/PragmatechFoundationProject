@@ -17,6 +17,8 @@ body {
 }
 /* Invite style start */
 .info-box {
+    display: flex;
+    flex-direction: row;
     background-color: wheat;
     width: 750px;
     height: 300px;
@@ -59,3 +61,33 @@ body {
     font-weight: 400;
 }
 /* Invite style end */
+/* Connect style start */
+ .connect {
+     width: 250px;
+     height: 300px;
+     padding-bottom: 20px;
+     display: flex;
+     flex-direction: column;
+     text-align: left;
+     margin-left: 15px;
+ }
+
+ .connect h1 {
+     margin-bottom: 0;
+
+ }
+ .connect-box {
+     display: flex;
+     flex-direction: column;
+     align-items: left;
+ }
+ .qutular {
+     display: flex;
+     flex-direction: row;
+ }
+ .boxs {
+     width: 90px;
+     height: 75px;
+     margin: 5px;
+     background-color: rgb(165, 73, 73);
+ }
