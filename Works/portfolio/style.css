@@ -4,12 +4,13 @@ body {
     margin: 0px;
     font-size: 15px;
     word-wrap: break-word;
-    color: #767676 ;
+    color: #767676;
 }
+
 
 /* Portfolio Styles */
 
-.info-ul a{
+.info-ul a {
     text-decoration: none;
     color: #767676;
     letter-spacing: 2px;
@@ -17,19 +18,28 @@ body {
     font-size: 13px;
     font-weight: 600;
     padding: 20px;
-    
-}
-ul li {
-list-style: none;
-font: 15px;
 }
 
-ul>:first-child{
+.info-ul a:hover {
+    color: #000;
+    font-size: 15px;
+    transition: all 0.25s;
+    letter-spacing: 2px;
+}
+
+ul li {
+    list-style: none;
+    font: 15px;
+}
+
+ul>:first-child {
     color: #000;
 }
+
 .info {
-    width: 210px; 
+    width: 210px;
 }
+
 .info a {
     padding: 5.8px 4px;
 }
@@ -42,32 +52,35 @@ ul>:first-child{
     justify-content: center;
     align-items: center;
 }
+
 .about {
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 465px;
 }
-.portfolio{
+
+.portfolio {
     display: flex;
     flex-direction: column;
     width: 210px;
     padding: 0px 70px;
     justify-content: center;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-
 
 .info-ul {
     padding: 40px 0px 50px 0px;
     width: 100%;
     float: left;
     margin: 0px;
-
 }
+
 
 /* h3{
     padding-left: 60%;
@@ -77,19 +90,68 @@ ul>:first-child{
 } */
 
 .social {
-    color :#000;
+    color: #000;
     display: flex;
 }
 
 .social>div {
-
     padding: 0px 12px 0px 0px;
 }
+
 footer .end a {
-    color: #787878 ;
+    color: #787878;
     text-decoration: none;
     font-style: italic;
 }
-/* p {
-    padding-left: 60%;
+
+.img {
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-image: url(./img/1.jpg);
+    border-radius: 50%;
+    background-position: center;
+    margin-right: 55px;
+}
+
+.about h3 {
+    font-size: 48px;
+    color: #000;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.heading span {
+    box-sizing: border-box;
+    /* padding-left: 15%; */
+    color: #767676;
+    margin-bottom: 20px;
+}
+
+i {
+    color: #000;
+    font-size: 15px;
+    margin: 5px;
+}
+
+
+/* .social {
+    display: flex;
+    align-items: left;
 } */
+
+.social-all {
+    display: flex;
+    justify-content: left;
+    margin-left: 6%;
+    width: 500px;
+}
+
+.end a:hover {
+    color: #000;
+    font-size: 15px;
+    transition: all 0.25s;
+    letter-spacing: 2px;
+}
