@@ -1,0 +1,48 @@
+.heading {
+    background-color: rgb(247, 248, 248);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 465px;
+}
+
+.img {
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-image: url(../img/IMG_8840.jpg);
+    border-radius: 50%;
+    background-position: center;
+    margin-right: 55px;
+}
+
+i {
+    color: #000;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.social {
+    color: #000;
+    display: flex;
+}
+
+.social>div {
+    padding: 0px 12px 0px 0px;
+}
+
+.social-all {
+    display: flex;
+    justify-content: left;
+    margin-left: 6%;
+    width: 500px;
+}
