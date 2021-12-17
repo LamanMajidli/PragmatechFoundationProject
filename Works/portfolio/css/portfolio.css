@@ -1,3 +1,13 @@
-body {
-    background-color: blue;
+.header {
+    width: 187px;
+    height: 133px;
+}
+
+.header-div {
+    width: 94px;
+    height: 34px;
+    background: #0000000A;
+    color: #333333;
+    padding: 4px 10px;
+    margin: 0 0 11px;
 }

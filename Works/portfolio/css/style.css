@@ -48,6 +48,7 @@ ul>:first-child {
     background-color: rgb(247, 248, 248);
     width: 100%;
     height: 100%;
+    padding-left: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,8 +65,14 @@ ul>:first-child {
     display: flex;
     flex-direction: column;
     width: 210px;
-    padding: 0px 70px;
+    padding: 2% 70px 0 70px;
     justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-y: hidden;
+    background-color: white;
+    height: 100vh;
 }
 
 .container {

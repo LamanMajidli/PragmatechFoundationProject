@@ -149,18 +149,19 @@ body {
     width: 350px;
 }
 
-.button {
+.about-button {
     width: 153px;
     height: 53px;
     text-align: center;
     background-color: #000;
     color: #fff;
+    transition: 0.5s;
 }
 
-.button:hover {
-    transition: 0.5s;
+.about-button:hover {
     width: 180px;
     letter-spacing: 2px;
+    transition: 0.5;
 }
 
 .span-hover:hover {
