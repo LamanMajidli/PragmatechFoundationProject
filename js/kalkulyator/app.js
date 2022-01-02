@@ -63,16 +63,16 @@
 
 
 // 20 qeder butun ededlerin ayri-ayri sertlerle tek ve cut olaraq goster (alert) 
-function tekrar(a) {
-    if (a > 20) {
-        return
-    }
-    // if (a % 2 == 0) {
-    //     alert(a)
-    // }
-    if (a % 2 == 1) {
-        alert(a)
-    }
-    tekrar(++a)
-}
-tekrar(1)
+// function tekrar(a) {
+//     if (a > 20) {
+//         return
+//     }
+//     // if (a % 2 == 0) {
+//     //     alert(a)
+//     // }
+//     if (a % 2 == 1) {
+//         alert(a)
+//     }
+//     tekrar(++a)
+// }
+// tekrar(1)
