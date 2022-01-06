@@ -35,14 +35,14 @@ ul>:first-child {
 }
 
 
-.about {
+/* .about {
         background-color: rgb(247, 248, 248);
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .portfolio {
     display: flex;
