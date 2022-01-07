@@ -1,0 +1,34 @@
+/* .button-container {
+    display: flex;
+    justify-content: space-between;
+    left: 2px;
+}
+
+.bocek {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    border: 1px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    transition: all .5s ease;
+} */
+
+.like {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid red;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
