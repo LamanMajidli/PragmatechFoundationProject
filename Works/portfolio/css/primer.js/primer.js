@@ -10,19 +10,22 @@
 // }
 // let a = document.querySelector('.like');
 
-let sum = 0;
+// let sum = 0;
 
-function plus() {
-    sum += 2; //sum++
-    document.querySelector(".like").innerHTML = sum;
-}
+// function plus() {
+//     sum += 2; //sum++
+//     document.querySelector(".like").innerHTML = sum;
+// }
 
-function minus() {
-    sum -= 2;
-    document.querySelector(".like").innerHTML = sum;
-}
+// function minus() {
+//     sum -= 2;
+//     document.querySelector(".like").innerHTML = sum;
+// }
 
-function reset() {
-    let sum = 0
-    document.querySelector(".like").innerHTML = sum;
-}
+// function reset() {
+//     let sum = 0
+//     document.querySelector(".like").innerHTML = sum;
+// }
+
+
+// querysel button cagir,addeventlistener klik funk elave et,daxile elave et div ,app child ile body icine elave et,yeni div'e class adi verilir,
