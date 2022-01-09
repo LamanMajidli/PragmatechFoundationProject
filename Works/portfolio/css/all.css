@@ -9,7 +9,7 @@
         word-wrap: break-word;
         color: #767676;
     }
-    /* .tochka {
+    .tochka {
         position: fixed;
         left: 0px;
         top: 0px;
@@ -20,7 +20,7 @@
         pointer-events: none;
         transform: translate(-50%, -50%);
         transition: .15s;
-    } */
+    }
     /* .krug {
         position: fixed;
         left: 0px;
