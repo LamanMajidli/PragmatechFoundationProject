@@ -13,29 +13,30 @@
 </head>
 
 <body>
-    <!-- Conteinar Section start -->
-    <section class="container">
-        <div class="portfolio">
-            <div class="logo">
-                <a href="#">
-                    <img src="../img/dark.png" alt="">
-                </a>
-            </div>
-            <div class="info">
-                <ul class="info-ul">
-                    <li> <a href="#">Home</a></li>
-                    <li> <a href="./about.html">About</a> </li>
-                    <li> <a href="./portfolio.html">Portfolio</a></li>
-                    <li> <a href="./news.html">Blog</a></li>
-                    <li> <a href="./contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <footer>
-                <div><span>© 2021 Tokyo</span></div>
-                <div class="end"><span>Created by <a href="#">Marketify</a></span></div>
-            </footer>
+    <div class="portfolio">
+        <div class="logo">
+            <a href="#">
+                <img src="../img/dark.png" alt="">
+            </a>
         </div>
-        <div class="heading">
+        <div class="info">
+            <ul class="info-ul">
+                <li> <a href="#">Home</a></li>
+                <li> <a href="./about.html">About</a> </li>
+                <li> <a href="./portfolio.html">Portfolio</a></li>
+                <li> <a href="./blog.html">Blog</a></li>
+                <li> <a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <footer>
+            <div><span>© 2021 Tokyo</span></div>
+            <div class="end"><span>Created by <a href="#">Marketify</a></span></div>
+        </footer>
+    </div>
+    <!-- Conteinar Section start -->
+    <section class="container-portfolio">
+
+        <div class="heading-portfolio">
             <div class="header">
                 <div class="header-button">
                     <button>Portfolio</button>
@@ -43,38 +44,27 @@
                 <div class="header-div">
                     <h3>Creative Portfolio</h3>
                 </div>
-                <div class="category">
-                    <div>
-                        <a href="#">All</a>
-                    </div>
-                    <div>
-                        <a href="#">Vimeo</a>
-                    </div>
-                    <div>
-                        <a href="#">Youtube</a>
-                    </div>
-                    <div>
-                        <a href="#">Soundcloud</a>
-                    </div>
-                    <div>
-                        <a href="#">Image</a>
-                    </div>
-                    <div>
-                        <a href="#">Details</a>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="main-image">
-                <div class="items">
-                    <div class="portfolio-img"><img src="../img/8.jpg" alt=""></div>
-                    <div class="portfolio-img"><img src="../img/7.jpg" alt=""></div>
-                    <div class="portfolio-img"><img src="../img/6.jpg" alt=""></div>
-                    <div class="portfolio-img"><img src="../img/5.jpg" alt=""></div>
-                    <div class="portfolio-img"><img src="../img/4.jpg" alt=""></div>
-                    <div class="portfolio-img"><img src="../img/3.jpg" alt=""></div>
-                </div>
+                <nav class="category">
+                    <ul class="category-list">
+                        <li>All</li>
+                        <li>Vimeo</li>
+                        <li>Youtube</li>
+                        <li>Soundcloud</li>
+                        <li>Image</li>
+                        <li>Detail</li>
+                    </ul>
+                </nav>
             </div>
         </div>
+        
+        <div class="image-items">
+            <div class="portfolio-img"></div>
+        </div>
+
     </section>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

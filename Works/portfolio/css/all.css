@@ -36,6 +36,11 @@
     /* .tochka-qara:hover {
         opacity: .5s;
     } */
+    /* .mousemove {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
     
     .krug {
         width: 30px;
@@ -43,8 +48,9 @@
         border: 2px solid black;
         border-radius: 50%;
         position: absolute;
-        top: 0px;
-        left: 0px;
+        top: 0;
+        left: 0;
+        right: 0;
         transition: all .1s ease;
     }
     
@@ -57,15 +63,13 @@
         background-color: #000;
         top: 0px;
         left: 0px;
+        right: 0px;
         transition: all .15s ease;
     }
     /* NavBar style */
     
     .container {
-        display: flex;
-        position: relative;
         margin-left: 25%;
-        justify-content: space-between;
         /* width: 100%; */
         height: 100vh;
     }
