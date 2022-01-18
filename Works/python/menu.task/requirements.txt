@@ -1,5 +1,0 @@
-1. Yeni istifadeci elave edin
-2. Istifadecileri goster
-3. Id gore istifadeci sil 
-4. Ana Menu geri qayit
-5. Emeliyyati sonlandir
