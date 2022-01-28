@@ -104,7 +104,7 @@ footer .end a {
 
 .heading span {
     box-sizing: border-box;
-    padding-left: 15%;
+    /* padding-left: 15%; */
     color: #767676;
     margin-bottom: 20px;
 }
