@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+    }
+
+    .box {
+        padding: 15px;
+        border: 1px solid red;
+    }
+</style>
+
+<body>
+
+    {% for i in data %}
+
+    <div class="box">
+        <h1>{{i['ad']}}</h1>
+        <h3>{{i['soyad']}}</h3>
+        <h5>{{i['yas']}}</h5>
+    </div>
+
+    {% endfor %}
+
+</body>
+</html>

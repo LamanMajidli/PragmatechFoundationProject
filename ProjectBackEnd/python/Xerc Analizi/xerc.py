@@ -25,6 +25,7 @@ while True:
             'meqsed':category,
             'tarix':tarix,
         }
+        
         if kategoriya=='a':
             file=open('xerc.txt','a')
             file.write(f'{xerc}:{xerc["xerclenen"]} AZN {xerc["tarix"]}  tarixinde erzaqa xerc olunub  \n')
